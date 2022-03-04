@@ -1,0 +1,47 @@
+@media (max-width: 575px) {
+    #main-menu img{
+        height: 50px;
+    }
+    svg:not(:host).svg-inline--fa, svg:not(:root).svg-inline--fa {
+        color: #ffffff;
+        font-size: 35px;
+    }
+    #main-menu ul li a {
+        background: #353535;
+    }
+    * 
+    #banner-part .text{
+        text-align: left;
+    }
+    #banner-part .banner h2::before {
+        right: 100px;
+        bottom: -6px;
+    }
+    #banner-part .banner h2{
+        font-size: 18px;
+    }
+    #banner-part .banner a span {
+        font-size: 14px;
+        font-weight: 600;
+    }
+    #banner-part .banner a {
+        padding: 0px 9px 0px 50px;
+        margin-left: 0;
+        margin-right: 2px;
+        font-size: 14px;
+        font-weight: 500;
+    }
+
+    #banner-part .slick-dots {
+        position: absolute;
+        left: 50%;
+        bottom: 30px;
+        transform: translateX(-50%);
+    }
+    #banner-part .slick-dots li{
+        display: flex;
+    }
+    #banner-part .banner {
+        padding: 200px 0px;
+    }
+}
